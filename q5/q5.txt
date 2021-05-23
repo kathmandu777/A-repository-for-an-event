@@ -1,0 +1,8 @@
+
+git rev-list --all | xargs git grep 'HINT'
+
+git reflog
+
+git checkout feature3
+
+git log --oneline
